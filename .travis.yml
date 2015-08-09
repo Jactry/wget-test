@@ -6,6 +6,6 @@ sudo: required
 
 before_install:
     - brew update
-    - brew upgrade
+
 script:
   - brew install --HEAD --with-libressl --with-pcre wget 
