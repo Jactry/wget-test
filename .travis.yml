@@ -1,11 +1,4 @@
-os:
-  - osx
-
-language: c
-
-compiler:
-  - gcc
-  - clang
+os: osx
 
 script:
   - brew install --HEAD --with-libressl --with-pcre wget 
