@@ -1,4 +1,6 @@
 os: osx
 
+sudo: required
+
 script:
   - brew install --HEAD --with-libressl --with-pcre wget 
